@@ -7,7 +7,7 @@ interface HomeCardProps {
     title: string,
     description: string,
     handleClick: () => void,
-    className: string, 
+    className?: string, 
 }
 
 const HomeCard = ({ img,
